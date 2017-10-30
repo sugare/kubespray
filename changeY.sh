@@ -1,6 +1,6 @@
 #!/bin/bash
-#
-#
+# create at 2017/10/30 by Sugare 
+# mail: sugare.zhang@daocloud.io
 
 # git clone https://github.com/kubernetes-incubator/kubespray.git
 # cd kubespray
