@@ -32,4 +32,5 @@ for file in ${grc_image_files[@]} ; do
 	/bin/cp $file $file.bak
 	sed -i 's#gcr.io/google_containers#sugare#g' $file
 	sed -i 's#gcr.io/kubernetes-helm#sugare#g' $file
+	sed -i 's#quay.io/calico#sugare#g' $file
 done
