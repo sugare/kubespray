@@ -37,3 +37,9 @@ kibana          10.109.6.189     <nodes>       5601:30601/TCP                  2
 http://<IP>:30601/
 ```
 
+#### 配置
+```
+1. Check logs coming in kibana, you just need to refresh, select Time-field name : @timestamps + create
+
+2. Load and view your first dashboard: management > Saved Object > Import > logging/dashboards/elk-v1.json
+```
