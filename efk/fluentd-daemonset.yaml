@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: fluentd
-        image: gcr.io/google_containers/fluentd-elasticsearch:1.20
+        image: sugare/fluentd-elasticsearch:1.20
         command:
           - '/bin/sh'
           - '-c'

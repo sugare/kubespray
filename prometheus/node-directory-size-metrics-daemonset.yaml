@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: read-du
-        image: giantswarm/tiny-tools:latest
+        image: sugare/tiny-tools:latest
         imagePullPolicy: IfNotPresent
         # FIXME threshold via env var
         # The
@@ -52,7 +52,7 @@ spec:
         - name: metrics
           mountPath: /tmp
       - name: caddy
-        image: dockermuenster/caddy:0.9.3
+        image: sugare/caddy:0.9.3
         command:
         - "caddy"
         - "-port=9102"

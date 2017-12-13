@@ -123,7 +123,7 @@ spec:
         #role: prometheus
       containers:
       - name: prometheus
-        image: prom/prometheus:v1.4.1
+        image: sugare/prometheus:v1.4.1
         args:
           - '-storage.local.retention=6h'
           - '-storage.local.memory-chunks=500000'

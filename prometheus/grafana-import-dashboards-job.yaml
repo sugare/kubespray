@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: grafana-import-dashboards
-        image: giantswarm/tiny-tools:latest
+        image: sugare/tiny-tools:latest
         imagePullPolicy: IfNotPresent
         command: ["/bin/sh", "-c"]
         workingDir: /opt/grafana-import-dashboards

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: elasticsearch
-        image: elasticsearch:5
+        image: sugare/elasticsearch:5
         ports:
         - containerPort: 9200
         - containerPort: 9300
